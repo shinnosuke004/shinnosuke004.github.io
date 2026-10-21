@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>公開ページ一覧</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-bottom: 24px;
+      color: #fff;
+      letter-spacing: 0.05em;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 8px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    a.card {
+      display: block;
+      background: #1e1e1e;
+      border: 1px solid #2e2e2e;
+      border-radius: 10px;
+      padding: 12px 14px;
+      color: #e0e0e0;
+      text-decoration: none;
+      line-height: 1.4;
+      transition: background 0.15s, border-color 0.15s;
+      word-break: break-word;
+    }
+    a.card:hover, a.card:active {
+      background: #2a2a2a;
+      border-color: #4a90e2;
+      color: #fff;
+    }
+    .card .icon { font-size: 1rem; display: block; margin-bottom: 4px; }
+    .card .name { font-size: 0.9rem; }
+    .card .desc { font-size: 0.75rem; color: #888; margin-top: 4px; }
+    .error { text-align: center; color: #888; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+
+<h1 id="title">公開ページ一覧</h1>
+<div class="grid" id="grid"></div>
+
+<script>
+  fetch('links.json')
+    .then(function (res) {
+      if (!res.ok) throw new Error(res.status);
+      return res.json();
+    })
+    .then(function (data) {
+      if (data.title) {
+        document.getElementById('title').textContent = data.title;
+        document.title = data.title;
+      }
+      var grid = document.getElementById('grid');
+      (data.links || []).forEach(function (item) {
+        var a = document.createElement('a');
+        a.className = 'card';
+        a.href = item.url;
+        if (item.icon) {
+          var icon = document.createElement('span');
+          icon.className = 'icon';
+          icon.textContent = item.icon;
+          a.appendChild(icon);
+        }
+        var name = document.createElement('span');
+        name.className = 'name';
+        name.textContent = item.title;
+        a.appendChild(name);
+        if (item.description) {
+          var desc = document.createElement('div');
+          desc.className = 'desc';
+          desc.textContent = item.description;
+          a.appendChild(desc);
+        }
+        grid.appendChild(a);
+      });
+    })
+    .catch(function () {
+      var p = document.createElement('p');
+      p.className = 'error';
+      p.textContent = '一覧を読み込めませんでした。';
+      document.getElementById('grid').appendChild(p);
+    });
+</script>
+
+</body>
+</html>

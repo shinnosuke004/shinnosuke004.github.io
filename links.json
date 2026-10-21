@@ -1,0 +1,11 @@
+{
+  "title": "公開ページ一覧",
+  "links": [
+    {
+      "title": "画像検索ブックマーク",
+      "description": "タップでGoogle画像検索が開くリンク集",
+      "url": "image-bookmarks/",
+      "icon": "🔍"
+    }
+  ]
+}
