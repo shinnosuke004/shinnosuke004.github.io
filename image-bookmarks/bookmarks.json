@@ -335,6 +335,31 @@
           "name": "バラ貨物船",
           "icon": "📒",
           "en": "bulk carrier ship"
+        },
+        {
+          "name": "masumasu",
+          "icon": "📒"
+        },
+        {
+          "name": "プラダ値段",
+          "icon": "📒",
+          "q": "プラダ 値段",
+          "en": "Prada price"
+        },
+        {
+          "name": "クロムハーツ",
+          "icon": "📒",
+          "en": "Chrome Hearts"
+        },
+        {
+          "name": "機械式腕時計",
+          "icon": "📒",
+          "en": "mechanical watch"
+        },
+        {
+          "name": "ランドローバー",
+          "icon": "📒",
+          "en": "Land Rover"
         }
       ]
     },
@@ -450,6 +475,13 @@
         },
         {
           "name": "少女漫画イケメン"
+        },
+        {
+          "name": "魁男塾"
+        },
+        {
+          "name": "ワンピースコマ割り特徴",
+          "q": "ワンピース コマ割り 特徴"
         }
       ]
     },
@@ -552,6 +584,11 @@
         },
         {
           "name": "久保史緒里"
+        },
+        {
+          "name": "バックルームズ 女優",
+          "en": "Backrooms actress",
+          "enGuess": true
         }
       ]
     },
@@ -621,6 +658,9 @@
         },
         {
           "name": "北海道の苔の回廊"
+        },
+        {
+          "name": "星野リゾート"
         }
       ]
     },
@@ -852,6 +892,17 @@
           "name": "テーブルトップマウンテン",
           "en": "tabletop mountain",
           "enGuess": true
+        },
+        {
+          "name": "ジンバブエ",
+          "en": "Zimbabwe"
+        },
+        {
+          "name": "マトボの丘群",
+          "en": "Matobo Hills"
+        },
+        {
+          "name": "ザ世界遺産"
         }
       ]
     }
