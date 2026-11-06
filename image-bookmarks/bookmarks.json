@@ -6,12 +6,14 @@
       "items": [
         {
           "name": "ゴダールの画作り",
-          "icon": "🎬"
+          "icon": "🎬",
+          "en": "Jean-Luc Godard cinematography"
         },
         {
           "name": "ヴィム・ヴェンダース写真集",
           "icon": "📷",
-          "q": "ヴィム・ヴェンダース 写真集"
+          "q": "ヴィム・ヴェンダース 写真集",
+          "en": "Wim Wenders photography book"
         },
         {
           "name": "VFX",
@@ -20,7 +22,8 @@
         {
           "name": "スパイダーバース色彩設計",
           "icon": "🕷️",
-          "q": "アクロス・ザ・スパイダーバース 色彩設計"
+          "q": "アクロス・ザ・スパイダーバース 色彩設計",
+          "en": "Across the Spider-Verse color design"
         },
         {
           "name": "ジブリレイアウト",
@@ -30,7 +33,8 @@
         {
           "name": "デヴィッド・リンチアート",
           "icon": "🎨",
-          "q": "デヴィッド・リンチ アート"
+          "q": "デヴィッド・リンチ アート",
+          "en": "David Lynch art"
         },
         {
           "name": "楳図かずお絵画",
@@ -44,31 +48,43 @@
         },
         {
           "name": "撮影監督ランキング スピルバーグ",
-          "icon": "🎬"
+          "icon": "🎬",
+          "en": "best cinematographers ranking Spielberg",
+          "enGuess": true
         },
         {
           "name": "ジャンプカットYT",
-          "icon": "🎬"
+          "icon": "🎬",
+          "en": "jump cut YouTube",
+          "enGuess": true
         },
         {
           "name": "映画の撮影現場の機材",
-          "icon": "🎬"
+          "icon": "🎬",
+          "en": "film set equipment"
         },
         {
           "name": "舞台の俳優の配置",
-          "icon": "🎬"
+          "icon": "🎬",
+          "en": "stage blocking actors positioning",
+          "enGuess": true
         },
         {
           "name": "スタジオニコルソン",
-          "icon": "🎬"
+          "icon": "🎬",
+          "en": "Studio Nicholson",
+          "enGuess": true
         },
         {
           "name": "指ファインダー28,50,135",
-          "icon": "🎬"
+          "icon": "🎬",
+          "en": "finger frame viewfinder 28mm 50mm 135mm",
+          "enGuess": true
         },
         {
           "name": "デルブーフ錯視",
-          "icon": "🎬"
+          "icon": "🎬",
+          "en": "Delboeuf illusion"
         }
       ]
     },
@@ -178,7 +194,9 @@
         },
         {
           "name": "レイクバックリー",
-          "icon": "🎨"
+          "icon": "🎨",
+          "en": "Lake Buckley",
+          "enGuess": true
         },
         {
           "name": "等々力ハナ",
@@ -218,7 +236,8 @@
         {
           "name": "クセナキス",
           "icon": "🎵",
-          "q": "クセナキス 音楽"
+          "q": "クセナキス 音楽",
+          "en": "Iannis Xenakis"
         },
         {
           "name": "ボボボーボ・ボーボボ",
@@ -231,7 +250,8 @@
         {
           "name": "ピクセルアート集",
           "icon": "🕹️",
-          "q": "ピクセルアート 集"
+          "q": "ピクセルアート 集",
+          "en": "pixel art collection"
         }
       ]
     },
@@ -250,12 +270,14 @@
         {
           "name": "モレスキンステッカー",
           "icon": "📒",
-          "q": "モレスキン ステッカー"
+          "q": "モレスキン ステッカー",
+          "en": "Moleskine stickers"
         },
         {
           "name": "スケボー・スノボーデザイン",
           "icon": "🛹",
-          "q": "スケボー スノボー デザイン"
+          "q": "スケボー スノボー デザイン",
+          "en": "skateboard snowboard design"
         },
         {
           "name": "ブックエンドの街角",
@@ -263,16 +285,21 @@
         },
         {
           "name": "ニトロマター",
-          "icon": "🎮"
+          "icon": "🎮",
+          "en": "Nitromatter",
+          "enGuess": true
         },
         {
           "name": "オークリー車",
           "icon": "🚗",
-          "q": "オークリー 車"
+          "q": "オークリー 車",
+          "en": "Oakley car",
+          "enGuess": true
         },
         {
           "name": "マーガレットハウウェル",
-          "icon": "📒"
+          "icon": "📒",
+          "en": "Margaret Howell"
         },
         {
           "name": "デニム袴",
@@ -296,15 +323,18 @@
         },
         {
           "name": "香港2階建てトラム",
-          "icon": "📒"
+          "icon": "📒",
+          "en": "Hong Kong double-decker tram"
         },
         {
           "name": "バイソン",
-          "icon": "📒"
+          "icon": "📒",
+          "en": "bison"
         },
         {
           "name": "バラ貨物船",
-          "icon": "📒"
+          "icon": "📒",
+          "en": "bulk carrier ship"
         }
       ]
     },
@@ -319,7 +349,9 @@
         {
           "name": "建築家ドローイング",
           "icon": "✏️",
-          "q": "建築家 ドローイング"
+          "q": "建築家 ドローイング",
+          "en": "architect drawings",
+          "enGuess": true
         },
         {
           "name": "BIM",
@@ -362,7 +394,8 @@
         {
           "name": "建築ソフト（無料）",
           "icon": "💻",
-          "q": "建築ソフト 無料"
+          "q": "建築ソフト 無料",
+          "en": "free architecture software"
         }
       ]
     },
@@ -425,31 +458,41 @@
       "icon": "📷",
       "items": [
         {
-          "name": "ジェフウォール"
+          "name": "ジェフウォール",
+          "en": "Jeff Wall"
         },
         {
-          "name": "アンドレアスグルスキー"
+          "name": "アンドレアスグルスキー",
+          "en": "Andreas Gursky"
         },
         {
-          "name": "エドバーティンスキー"
+          "name": "エドバーティンスキー",
+          "en": "Edward Burtynsky"
         },
         {
-          "name": "ベッヒャー夫妻"
+          "name": "ベッヒャー夫妻",
+          "en": "Bernd and Hilla Becher"
         },
         {
-          "name": "ブリジットスミス"
+          "name": "ブリジットスミス",
+          "en": "Bridget Smith photography",
+          "enGuess": true
         },
         {
-          "name": "カンディダヘーファー"
+          "name": "カンディダヘーファー",
+          "en": "Candida Höfer"
         },
         {
-          "name": "リチャードミズラック"
+          "name": "リチャードミズラック",
+          "en": "Richard Misrach"
         },
         {
-          "name": "ダンホールズワース"
+          "name": "ダンホールズワース",
+          "en": "Dan Holdsworth"
         },
         {
-          "name": "ソフィーリステルフーバー"
+          "name": "ソフィーリステルフーバー",
+          "en": "Sophie Ristelhueber"
         },
         {
           "name": "ホンマタカシ"
@@ -470,22 +513,30 @@
       "icon": "🖼️",
       "items": [
         {
-          "name": "アルパインクライミング"
+          "name": "アルパインクライミング",
+          "en": "alpine climbing"
         },
         {
-          "name": "トレイルランニング"
+          "name": "トレイルランニング",
+          "en": "trail running"
         },
         {
-          "name": "ダイビングプール"
+          "name": "ダイビングプール",
+          "en": "diving pool"
         },
         {
-          "name": "ボードゲーム ジャンル"
+          "name": "ボードゲーム ジャンル",
+          "en": "board game genres"
         },
         {
-          "name": "ビジュアル博物館"
+          "name": "ビジュアル博物館",
+          "en": "DK Eyewitness books",
+          "enGuess": true
         },
         {
-          "name": "珍奇鉱物"
+          "name": "珍奇鉱物",
+          "en": "rare unusual minerals",
+          "enGuess": true
         },
         {
           "name": "吉岡里帆ジノン"
@@ -542,10 +593,13 @@
           "name": "ガソリンスタンド"
         },
         {
-          "name": "scp収容施設"
+          "name": "scp収容施設",
+          "en": "SCP Foundation containment facility"
         },
         {
-          "name": "ノースランズ"
+          "name": "ノースランズ",
+          "en": "Northlands",
+          "enGuess": true
         },
         {
           "name": "低層マンション"
@@ -554,13 +608,16 @@
           "name": "オストガーデン軽井沢"
         },
         {
-          "name": "ネイチャーアクアリウム"
+          "name": "ネイチャーアクアリウム",
+          "en": "nature aquarium"
         },
         {
-          "name": "アクアデザインアマノ"
+          "name": "アクアデザインアマノ",
+          "en": "Aqua Design Amano"
         },
         {
-          "name": "パルダリウム"
+          "name": "パルダリウム",
+          "en": "paludarium"
         },
         {
           "name": "北海道の苔の回廊"
@@ -575,166 +632,226 @@
           "name": "炭鉱住宅"
         },
         {
-          "name": "ムポネン鉱山"
+          "name": "ムポネン鉱山",
+          "en": "Mponeng gold mine"
         },
         {
-          "name": "グルーベラ洞窟"
+          "name": "グルーベラ洞窟",
+          "en": "Krubera Cave"
         },
         {
-          "name": "イタリア山岳都市"
+          "name": "イタリア山岳都市",
+          "en": "Italian hill towns"
         },
         {
-          "name": "アハガル山地"
+          "name": "アハガル山地",
+          "en": "Ahaggar Mountains"
         },
         {
-          "name": "セーシェル"
+          "name": "セーシェル",
+          "en": "Seychelles"
         },
         {
-          "name": "ボストーク湖"
+          "name": "ボストーク湖",
+          "en": "Lake Vostok"
         },
         {
-          "name": "カマイクル地下都市"
+          "name": "カマイクル地下都市",
+          "en": "Kaymaklı Underground City"
         },
         {
-          "name": "イェリコ遺跡"
+          "name": "イェリコ遺跡",
+          "en": "Jericho Tell es-Sultan"
         },
         {
-          "name": "カラカラ浴場"
+          "name": "カラカラ浴場",
+          "en": "Baths of Caracalla"
         },
         {
-          "name": "ペトラ遺跡"
+          "name": "ペトラ遺跡",
+          "en": "Petra Jordan"
         },
         {
-          "name": "マテーラ"
+          "name": "マテーラ",
+          "en": "Matera"
         },
         {
           "name": "夕張炭鉱"
         },
         {
-          "name": "エクアドル違法鉱山"
+          "name": "エクアドル違法鉱山",
+          "en": "Ecuador illegal gold mining"
         },
         {
-          "name": "セントラリア炭鉱"
+          "name": "セントラリア炭鉱",
+          "en": "Centralia mine fire"
         },
         {
-          "name": "ソーク研究所"
+          "name": "ソーク研究所",
+          "en": "Salk Institute"
         },
         {
-          "name": "インクライン incline"
+          "name": "インクライン incline",
+          "en": "incline railway",
+          "enGuess": true
         },
         {
-          "name": "ダヴォス"
+          "name": "ダヴォス",
+          "en": "Davos"
         },
         {
-          "name": "マラガ"
+          "name": "マラガ",
+          "en": "Málaga"
         },
         {
-          "name": "カプリ島"
+          "name": "カプリ島",
+          "en": "Capri"
         },
         {
-          "name": "プエルトリコ"
+          "name": "プエルトリコ",
+          "en": "Puerto Rico"
         },
         {
-          "name": "ウズベキスタン"
+          "name": "ウズベキスタン",
+          "en": "Uzbekistan"
         },
         {
-          "name": "ダナン"
+          "name": "ダナン",
+          "en": "Da Nang"
         },
         {
-          "name": "パタヤ"
+          "name": "パタヤ",
+          "en": "Pattaya"
         },
         {
-          "name": "バミューダ諸島"
+          "name": "バミューダ諸島",
+          "en": "Bermuda"
         },
         {
-          "name": "バハマ"
+          "name": "バハマ",
+          "en": "Bahamas"
         },
         {
-          "name": "モンテネグロ"
+          "name": "モンテネグロ",
+          "en": "Montenegro"
         },
         {
-          "name": "ラブアン島"
+          "name": "ラブアン島",
+          "en": "Labuan island"
         },
         {
-          "name": "セドナ"
+          "name": "セドナ",
+          "en": "Sedona"
         },
         {
-          "name": "メディナ"
+          "name": "メディナ",
+          "en": "medina old town",
+          "enGuess": true
         },
         {
-          "name": "モーリシャス"
+          "name": "モーリシャス",
+          "en": "Mauritius"
         },
         {
-          "name": "ゴトランド島"
+          "name": "ゴトランド島",
+          "en": "Gotland"
         },
         {
-          "name": "ロサリオ島"
+          "name": "ロサリオ島",
+          "en": "Islas del Rosario",
+          "enGuess": true
         },
         {
-          "name": "ワディラム"
+          "name": "ワディラム",
+          "en": "Wadi Rum"
         },
         {
-          "name": "マタアトランティカ"
+          "name": "マタアトランティカ",
+          "en": "Mata Atlântica"
         },
         {
-          "name": "ブルネイ"
+          "name": "ブルネイ",
+          "en": "Brunei"
         },
         {
-          "name": "アラン島"
+          "name": "アラン島",
+          "en": "Aran Islands",
+          "enGuess": true
         },
         {
           "name": "Urbex"
         },
         {
-          "name": "タンブル"
+          "name": "タンブル",
+          "en": "Tumble",
+          "enGuess": true
         },
         {
-          "name": "カスパロフ"
+          "name": "カスパロフ",
+          "en": "Kasparov",
+          "enGuess": true
         },
         {
-          "name": "ホテルデルサルト"
+          "name": "ホテルデルサルト",
+          "en": "Hotel del Salto"
         },
         {
-          "name": "テルメヴァルス"
+          "name": "テルメヴァルス",
+          "en": "Therme Vals"
         },
         {
-          "name": "コートハウス"
+          "name": "コートハウス",
+          "en": "courtyard house",
+          "enGuess": true
         },
         {
-          "name": "ヴァローシャ"
+          "name": "ヴァローシャ",
+          "en": "Varosha"
         },
         {
-          "name": "ストローベイルハウス"
+          "name": "ストローベイルハウス",
+          "en": "straw bale house"
         },
         {
-          "name": "シュミッドハウス"
+          "name": "シュミッドハウス",
+          "en": "Haus Schmid Ernst Gisel",
+          "enGuess": true
         },
         {
-          "name": "ボトルヴィレッジ"
+          "name": "ボトルヴィレッジ",
+          "en": "Bottle Village"
         },
         {
-          "name": "バイオニフィケン"
+          "name": "バイオニフィケン",
+          "en": "BioNyfiken"
         },
         {
-          "name": "バイコヌール"
+          "name": "バイコヌール",
+          "en": "Baikonur"
         },
         {
-          "name": "チッタゴン"
+          "name": "チッタゴン",
+          "en": "Chittagong ship breaking"
         },
         {
-          "name": "イノタ発電所"
+          "name": "イノタ発電所",
+          "en": "Inota power plant"
         },
         {
-          "name": "ボーカーヒルステーション"
+          "name": "ボーカーヒルステーション",
+          "en": "Bokor Hill Station"
         },
         {
-          "name": "グアダルキビール湿地"
+          "name": "グアダルキビール湿地",
+          "en": "Guadalquivir Marshes"
         },
         {
           "name": "HectorGarrido"
         },
         {
-          "name": "テーブルトップマウンテン"
+          "name": "テーブルトップマウンテン",
+          "en": "tabletop mountain",
+          "enGuess": true
         }
       ]
     }

@@ -99,6 +99,25 @@
       margin-bottom: 4px;
       display: block;
     }
+    .card .en {
+      display: block;
+      margin-top: 4px;
+      font-size: 0.7rem;
+      color: #888;
+    }
+    .card .en.guess {
+      color: #d9a441;
+    }
+    .card a.lang {
+      flex: none;
+      align-self: flex-start;
+      margin: 8px 0 0;
+      padding: 5px 8px;
+      font-size: 0.65rem;
+      color: #aaa;
+      border: 1px solid #444;
+      border-radius: 6px;
+    }
     .card label {
       display: flex;
       align-items: flex-start;
@@ -125,7 +144,7 @@
 </div>
 <div id="root"></div>
 
-<p style="text-align:center;color:#555;font-size:0.7rem;margin-top:32px;">タップで Google 画像検索が開きます／右のチェックは、この端末のブラウザに保存されます</p>
+<p style="text-align:center;color:#555;font-size:0.7rem;margin-top:32px;">タップで Google 画像検索が開きます（英語の語句が出ているカードは英語で検索。JP で日本語、「?」は仮の英訳）／右のチェックは、この端末のブラウザに保存されます</p>
 
 <script>
   var CHECK_KEY = 'imgbm-checked';
@@ -146,6 +165,10 @@
   var checked = {};
   load(CHECK_KEY, []).forEach(function (n) { checked[n] = true; });
   var unCheckedOnly = load(FILTER_KEY, false) === true;
+
+  function searchUrl(q) {
+    return 'https://www.google.com/search?q=' + encodeURIComponent(q) + '&tbm=isch';
+  }
 
   var sectionViews = [];
   var filterBtn = document.getElementById('filter');
@@ -175,9 +198,10 @@
         card.className = 'card';
 
         var a = document.createElement('a');
-        a.href = 'https://www.google.com/search?q=' + encodeURIComponent(item.q || item.name) + '&tbm=isch';
+        a.href = searchUrl(item.en || item.q || item.name);
         a.target = '_blank';
         a.rel = 'noopener';
+        a.setAttribute('data-name', item.name);
         var icon = item.icon || sec.icon;
         if (icon) {
           var iconEl = document.createElement('span');
@@ -186,6 +210,12 @@
           a.appendChild(iconEl);
         }
         a.appendChild(document.createTextNode(item.name));
+        if (item.en) {
+          var en = document.createElement('span');
+          en.className = 'en' + (item.enGuess ? ' guess' : '');
+          en.textContent = item.en + (item.enGuess ? ' ?' : '');
+          a.appendChild(en);
+        }
 
         var label = document.createElement('label');
         var box = document.createElement('input');
@@ -200,6 +230,16 @@
         label.appendChild(box);
 
         card.appendChild(a);
+        if (item.en) {
+          var ja = document.createElement('a');
+          ja.className = 'lang';
+          ja.href = searchUrl(item.q || item.name);
+          ja.target = '_blank';
+          ja.rel = 'noopener';
+          ja.setAttribute('aria-label', item.name + ' を日本語で検索');
+          ja.textContent = 'JP';
+          card.appendChild(ja);
+        }
         card.appendChild(label);
         grid.appendChild(card);
         cards.push({ el: card, name: item.name });
